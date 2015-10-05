@@ -24,3 +24,10 @@ describe('makePrice', function(){
     expect(makePrice(thePizza)).to.equal("$16");
   })
 });
+
+describe('makePrice', function(){
+  var thePizza = makePizza("small", ["cheese", "ham"]);
+  it("returns price for small with 2 toppings", function(){
+    expect(makePrice(thePizza)).to.equal("$10");
+  })
+});
