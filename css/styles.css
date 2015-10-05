@@ -1,0 +1,12 @@
+#price {
+  display: none;
+}
+
+.row {
+  margin: 5px;
+}
+
+.modal {
+  text-align: center;
+  opacity: 0.5;
+}
